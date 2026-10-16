@@ -25,6 +25,17 @@ npx skills@latest add jeanpfs/stock-images --all -g
 npx -y stock-images-mcp
 ```
 
+## PHP packages
+
+| Project | What it does |
+|---|---|
+| [lumen-notification](https://github.com/lab123it/lumen-notification) | Laravel Notifications for Lumen 10/11 and Laravel 10-13, with the artisan commands Lumen lacks |
+| [aws-sns](https://github.com/lab123it/aws-sns) | Amazon SNS notification channels (SMS and topics) for Laravel and Lumen |
+
+```bash
+composer require lab123/lumen-notification lab123/aws-sns
+```
+
 ## Apps
 
 | Project | What it does |
